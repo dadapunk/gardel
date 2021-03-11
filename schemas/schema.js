@@ -11,6 +11,30 @@ export default createSchema({
   // Then proceed to concatenate our document type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
-    /* Your types here! */
+    {
+      name: 'blog',
+      type: 'document',
+      title: 'blog',
+      fields: [
+        {
+          name: 'title',
+          type: 'string',
+          title: 'Title'
+        },
+        {
+          name: 'subtitle',
+          type: 'string',
+          title: 'Subtitle'
+        },
+        {
+          name: 'slug',
+          type: 'string',
+          title: 'Slug'
+        }
+      ]
+
+
+    }
+    
   ]),
 })
