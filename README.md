@@ -2,6 +2,11 @@
 
 Canta Gardel canta!
 
+sanity --version
+
+sudo npm install --save @sanity/client
+
+
 Now you can do the following things:
 
 - [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
